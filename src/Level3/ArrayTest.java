@@ -1,5 +1,7 @@
 package Level3;
 
+import java.util.Arrays;
+
 /**
  * Created by buamod on 2017-05-06.
  */
@@ -12,6 +14,7 @@ public class ArrayTest {
     }
     System.out.println(a[a.length-1]+"]");
     }
+
 
     private static int indexMin(int[] array) {
         int var = 0;
@@ -42,6 +45,8 @@ public class ArrayTest {
         }
 
         printWithNoArrayLib("A", arrayA);
+        System.out.println("A = "+ Arrays.toString(arrayA));  // this method will replace the method printWithNoArrayLib
+
         // Complete this sentence. It should behave exactly the same as the previous method call
         //System.out.println("A = "+??????????);
         printWithNoArrayLib("B", arrayB);
