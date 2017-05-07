@@ -2,6 +2,24 @@ package FindingPathInMaze;
 
 /**
  * Created by buamod on 2017-05-07.
+ *
+ * Possible states for each position of a maze
+ *
+ * @author Raquel M. Crespo-Garcia <rcrespo@it.uc3m.es>
+ *
  */
-public class MazeStatus {
+public enum MazeStatus {
+
+    OPEN(' '), OBSTACLE('#'), GOAL('x'), VISITED('.');
+
+    private char text;
+
+    MazeStatus(char s) {
+        this.text = s;
+    }
+
+    public char text() {
+        return this.text;
+    }
+
 }
