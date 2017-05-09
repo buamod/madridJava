@@ -21,6 +21,25 @@ public class MyLinkedList<E>{
         first = newNode;
     }
     /*
+ * Delete the first occurrence of a value
+ * Return a boolean stating if the delete was successful
+ */
+    public boolean deleteFirstOccurrence(E info){
+        boolean success = false;
+        // Implement this Method
+        return success;
+    }
+    /*
+     * Delete all the occurrences of a value
+     * Returns the number of deleted nodes
+     * You can use deleteFirstOccurrence
+     */
+    public int deleteAll(E info){
+        int number = 0;
+        // Implement this method
+        return number;
+    }
+    /*
      * Insertion at the end
      * Implement this method
      */
