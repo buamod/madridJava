@@ -73,7 +73,7 @@ public class Main {
         System.out.println("Test Path (Part 3)");
         System.out.println(path.toString());
         System.out.println("Test Path (Part 4)");
-        maze.followPath(path);
+    //    maze.followPath(path);
         System.out.println(maze.toString());
 
         maze = new Maze(MazeSamples.sMaze1);
@@ -81,7 +81,7 @@ public class Main {
         System.out.println("Test Path (Part 3)");
         System.out.println(path.toString());
         System.out.println("Test Path (Part 4)");
-        maze.followPath(path);
+  //      maze.followPath(path);
         System.out.println(maze.toString());
 
     }
