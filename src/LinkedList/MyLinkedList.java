@@ -43,11 +43,22 @@ public class MyLinkedList<E>{
      * Insertion at the end
      * Implement this method
      */
-     /*
-    public void insertEnd(E info){
 
+    public void insertEnd(E info) {
+        Node<E> newNode = new Node<E>(info);
+        Node<E> loopNode = first;
+
+        if (loopNode == null) {
+            first = newNode;
+        } else {
+            while (loopNode.getNext() != null) {
+                loopNode = loopNode.getNext();
+            }
+            loopNode.setNext(newNode);
+        }
     }
-    */
+
+
     /*
      * Extraction of the first node
      */
@@ -63,7 +74,7 @@ public class MyLinkedList<E>{
      * Print all list
      */
     public void print(){
-        Node<E> current = first;
+        Node<E> current  = first;
 
         while (current != null){
             System.out.print(current.getInfo() + " ");
