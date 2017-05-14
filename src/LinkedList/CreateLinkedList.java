@@ -39,7 +39,7 @@ public class CreateLinkedList{
         }
         //Print the whole second list
         linkedList1.print();
-        
+
 
     }
 }

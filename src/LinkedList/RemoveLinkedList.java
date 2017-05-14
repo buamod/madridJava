@@ -6,6 +6,16 @@ package LinkedList;
 /*
  * Exercise for Removing the first occurrence of a given value
  * and removing all the occurrence of a given value
+ *
+ *
+ * Read carefully the provided code (all the classes).
+ * Implement the code of the method deleteFirstOccurrence(E info), which deletes in the linked list
+ * the first occurrence of the value received as argument. The method returns a boolean indicating
+ * if the operation was succesful. Implement the code of the method deleteAll(E info),
+ * which deletes in the linked list all the occurrences of the value received as argument.
+ * The method returns the number of deleted elements. Test your code using the main method provided
+ * (it is already prepared for testing your new code, so that you only need to implement the aforementioned two methods).
+ *
  */
 public class RemoveLinkedList{
 

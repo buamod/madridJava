@@ -26,7 +26,27 @@ public class MyLinkedList<E>{
  */
     public boolean deleteFirstOccurrence(E info){
         boolean success = false;
-        // Implement this Method
+        Node<E> newNode = new Node<E>(info);
+        Node<E> travel = first;
+
+        if(first.getNext() == null){
+            first.getInfo().equals(newNode);
+            first.setInfo(null);
+            success = true;
+        }
+        if(first.getInfo().equals(info)){
+        first = first.getNext();
+        return true;
+        }
+
+        while(travel.getNext() != null){
+            if(travel.getNext().getInfo().equals(info)){
+                travel.setNext(travel.getNext().getNext());
+                return true;
+            }
+            travel = travel.getNext();
+        }
+
         return success;
     }
     /*
@@ -34,10 +54,12 @@ public class MyLinkedList<E>{
      * Returns the number of deleted nodes
      * You can use deleteFirstOccurrence
      */
-    public int deleteAll(E info){
+    public int deleteAll(E info) {
         int number = 0;
-        // Implement this method
+        while (deleteFirstOccurrence(info))
+            number++;
         return number;
+
     }
     /*
      * Insertion at the end
