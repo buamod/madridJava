@@ -1,4 +1,4 @@
-package Level3;
+package Level3.LinearDataStructures;
 
 /**
  * Created by buamod on 2017-05-07.

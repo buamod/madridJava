@@ -1,4 +1,4 @@
-package LinkedList;
+package Level3.LinearDataStructures.LinkedList;
 
 /**
  * Created by buamod on 2017-05-08.

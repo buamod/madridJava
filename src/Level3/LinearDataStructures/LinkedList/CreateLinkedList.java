@@ -1,8 +1,4 @@
-package LinkedList;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package Level3.LinearDataStructures.LinkedList;
 
 /**
  * Created by buamod on 2017-05-07.

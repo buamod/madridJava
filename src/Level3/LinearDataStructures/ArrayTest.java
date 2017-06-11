@@ -1,4 +1,4 @@
-package Level3;
+package Level3.LinearDataStructures;
 
 import java.util.Arrays;
 
